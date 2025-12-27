@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout | AI-Electro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2>AI-Electro</h2>
+</header>
+
+<section class="checkout">
+
+  <!-- CUSTOMER DETAILS -->
+  <div class="checkout-box">
+    <h2>Delivery Details</h2>
+
+    <input type="text" id="name" placeholder="Full Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="text" id="phone" placeholder="Phone Number">
+    <textarea id="address" placeholder="Full Address"></textarea>
+  </div>
+
+  <!-- ORDER SUMMARY -->
+  <div class="checkout-box">
+    <h2>Order Summary</h2>
+    <div id="summary"></div>
+    <h3>Total: ₹<span id="total">0</span></h3>
+
+    <button onclick="payNow()">Pay Now</button>
+  </div>
+
+</section>
+
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Plug Pro | AI-Electro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2>AI-Electro</h2>
+  <a href="cart.html">🛒 Cart</a>
+</header>
+
+<section class="product-detail">
+
+  <!-- IMAGE GALLERY -->
+  <div class="gallery">
+    <img id="mainImg" src="assets/images/plug.png">
+
+    <div class="thumbs">
+      <img src="assets/images/plug.png" onclick="changeImg(this)">
+      <img src="assets/images/plug-angle.png" onclick="changeImg(this)">
+      <img src="assets/images/plug-usage.png" onclick="changeImg(this)">
+    </div>
+  </div>
+
+  <!-- PRODUCT INFO -->
+  <div class="info">
+    <h1>Smart Plug Pro</h1>
+    <h2>₹1,499</h2>
+
+    <p class="desc">
+      Control your home appliances remotely using our AI-powered smart plug.
+      Designed for safety, efficiency, and modern living.
+    </p>
+
+    <ul class="features">
+      <li>📱 App Control</li>
+      <li>⚡ Energy Efficient</li>
+      <li>🔒 Secure Wi-Fi</li>
+      <li>🧠 AI Automation</li>
+    </ul>
+
+    <button onclick="addToCart('Smart Plug Pro',1499)">
+      Add to Cart
+    </button>
+
+    <div class="trust">
+      ✔ 1-Year Warranty <br>
+      ✔ 7-Day Replacement <br>
+      ✔ 24/7 Support
+    </div>
+  </div>
+
+</section>
+
+<!-- SPECIFICATIONS -->
+<section class="specs">
+  <h2>Technical Specifications</h2>
+
+  <table>
+    <tr><td>Processor</td><td>ESP32</td></tr>
+    <tr><td>Connectivity</td><td>Wi-Fi 2.4GHz</td></tr>
+    <tr><td>Power Input</td><td>5V USB</td></tr>
+    <tr><td>Mobile App</td><td>Android / iOS</td></tr>
+    <tr><td>Warranty</td><td>1 Year</td></tr>
+  </table>
+</section>
+
+<script src="js/app.js"></script>
+</body>
+</html>
